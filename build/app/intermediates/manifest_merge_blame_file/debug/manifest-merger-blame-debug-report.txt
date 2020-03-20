@@ -1,0 +1,72 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.flutter_loadmore"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/home/harsh/Documents/Fluuter/flutter_loadmore/android/app/src/main/AndroidManifest.xml:8:1-62
+14-->/home/harsh/Documents/Fluuter/flutter_loadmore/android/app/src/main/AndroidManifest.xml:8:18-60
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[:connectivity] /home/harsh/Documents/Fluuter/flutter_loadmore/build/connectivity/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-79
+15-->[:connectivity] /home/harsh/Documents/Fluuter/flutter_loadmore/build/connectivity/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-76
+16    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+16-->[:connectivity] /home/harsh/Documents/Fluuter/flutter_loadmore/build/connectivity/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-76
+16-->[:connectivity] /home/harsh/Documents/Fluuter/flutter_loadmore/build/connectivity/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-73
+17
+18    <application
+18-->/home/harsh/Documents/Fluuter/flutter_loadmore/android/app/src/main/AndroidManifest.xml:9:5-30:19
+19        android:name="io.flutter.app.FlutterApplication"
+19-->/home/harsh/Documents/Fluuter/flutter_loadmore/android/app/src/main/AndroidManifest.xml:10:9-57
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.0.0] /home/harsh/.gradle/caches/transforms-2/files-2.1/0a271e99b6771ad4a84318244d532fb7/core-1.0.0/AndroidManifest.xml:22:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->/home/harsh/Documents/Fluuter/flutter_loadmore/android/app/src/main/AndroidManifest.xml:12:9-43
+23        android:label="flutter_loadmore" >
+23-->/home/harsh/Documents/Fluuter/flutter_loadmore/android/app/src/main/AndroidManifest.xml:11:9-41
+24        <activity
+24-->/home/harsh/Documents/Fluuter/flutter_loadmore/android/app/src/main/AndroidManifest.xml:13:9-24:20
+25            android:name="com.example.flutter_loadmore.MainActivity"
+25-->/home/harsh/Documents/Fluuter/flutter_loadmore/android/app/src/main/AndroidManifest.xml:14:13-41
+26            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+26-->/home/harsh/Documents/Fluuter/flutter_loadmore/android/app/src/main/AndroidManifest.xml:17:13-163
+27            android:hardwareAccelerated="true"
+27-->/home/harsh/Documents/Fluuter/flutter_loadmore/android/app/src/main/AndroidManifest.xml:18:13-47
+28            android:launchMode="singleTop"
+28-->/home/harsh/Documents/Fluuter/flutter_loadmore/android/app/src/main/AndroidManifest.xml:15:13-43
+29            android:theme="@style/LaunchTheme"
+29-->/home/harsh/Documents/Fluuter/flutter_loadmore/android/app/src/main/AndroidManifest.xml:16:13-47
+30            android:windowSoftInputMode="adjustResize" >
+30-->/home/harsh/Documents/Fluuter/flutter_loadmore/android/app/src/main/AndroidManifest.xml:19:13-55
+31            <intent-filter>
+31-->/home/harsh/Documents/Fluuter/flutter_loadmore/android/app/src/main/AndroidManifest.xml:20:13-23:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->/home/harsh/Documents/Fluuter/flutter_loadmore/android/app/src/main/AndroidManifest.xml:21:17-68
+32-->/home/harsh/Documents/Fluuter/flutter_loadmore/android/app/src/main/AndroidManifest.xml:21:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->/home/harsh/Documents/Fluuter/flutter_loadmore/android/app/src/main/AndroidManifest.xml:22:17-76
+34-->/home/harsh/Documents/Fluuter/flutter_loadmore/android/app/src/main/AndroidManifest.xml:22:27-74
+35            </intent-filter>
+36        </activity>
+37        <!--
+38             Don't delete the meta-data below.
+39             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+40        -->
+41        <meta-data
+41-->/home/harsh/Documents/Fluuter/flutter_loadmore/android/app/src/main/AndroidManifest.xml:27:9-29:33
+42            android:name="flutterEmbedding"
+42-->/home/harsh/Documents/Fluuter/flutter_loadmore/android/app/src/main/AndroidManifest.xml:28:13-44
+43            android:value="2" />
+43-->/home/harsh/Documents/Fluuter/flutter_loadmore/android/app/src/main/AndroidManifest.xml:29:13-30
+44    </application>
+45
+46</manifest>
